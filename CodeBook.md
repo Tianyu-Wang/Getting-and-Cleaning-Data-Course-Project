@@ -72,3 +72,7 @@ Summary of all data fields in tidy data file ```averages by activity and subject
 - fBodyBodyGyroMag-std()
 - fBodyBodyGyroJerkMag-mean()
 - fBodyBodyGyroJerkMag-std()
+
+## Conducted Data Transformation Steps
+- Read test and training data from original data files into data tables in R (variables ```x_test```, ```y_test```, ```subject_test```, ```x_train```, ```y_train``` and ```subject_train```)
+- Create combined data set by rowbinding test and training sets (variables ```x_data```, ```y_data``` and ```subject_data```)
