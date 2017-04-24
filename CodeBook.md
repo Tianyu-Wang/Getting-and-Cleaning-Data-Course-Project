@@ -77,5 +77,5 @@ Summary of all data fields in tidy data file ```averages by activity and subject
 - Read test and training data from original data files into data tables in R (variables ```x_test```, ```y_test```, ```subject_test```, ```x_train```, ```y_train``` and ```subject_train```)
 - Create combined data table by rowbinding test and training sets (variables ```x_data```, ```y_data``` and ```subject_data```)
 - Subset x data set for mean() and std() columns using ```mean_and_std_features``` (a numerical vector indicating the columns containing mean and standard deviation measures)
-- Columnbind x, y and subject data tables into a single data set ```data```
+- Columnbind data tables ```x_data```, ```y_data``` and ```subject_data``` into a single data set ```data```
 - Create separate data set ```avg_data``` containing the averages of each variable grouped by subject and activity, which is exported into the final result ```averages by activity and subject.txt```
