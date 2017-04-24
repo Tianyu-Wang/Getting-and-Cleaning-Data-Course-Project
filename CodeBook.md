@@ -1,9 +1,9 @@
 # Code Book
-Summary of all data fields in tidy data file ```averages by activity and subject.txt```
+Summary of all data fields in tidy data file ```averages by activity and subject.txt``` showing the average measures for each activity and subject
 
-## Categorical Variables
-- ```activity```: Describes activity performed by test subject
-- ```subject```: Identifies test subject
+## Categorical and Identifying Variables
+- activity: Describes activity performed by test subject
+- subject: Identifies test subject
 
 ## Calculated Measurement Variables
 - tBodyAcc-mean()-X
