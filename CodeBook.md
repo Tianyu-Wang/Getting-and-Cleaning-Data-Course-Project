@@ -1,5 +1,5 @@
 # Code Book
-Summary of all data fields in tidy data file ```averages by activity and subject.txt``` showing the average measures for each activity and subject
+Summary of all data fields in tidy data file ```averages by activity and subject.txt``` showing the average measures for each activity and subject and the conducted data transformation steps to create the file
 
 ## Categorical and Identifying Variables
 - activity: Describes activity performed by test subject
@@ -78,4 +78,4 @@ Summary of all data fields in tidy data file ```averages by activity and subject
 - Create combined data table by rowbinding test and training sets (variables ```x_data```, ```y_data``` and ```subject_data```)
 - Subset x data set for mean() and std() columns using ```mean_and_std_features``` (a numerical vector indicating the columns containing mean and standard deviation measures)
 - Columnbind x, y and subject data tables into a single data set ```data```
-- Create separte data set ```avg_data``` containing the averages of each variable grouped by subject and activity
+- Create separate data set ```avg_data``` containing the averages of each variable grouped by subject and activity, which is exported into the final result ```averages by activity and subject.txt```
